@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta lang="en">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- aca x si necesito bootstrap -->
+        <title>header</title>
+        <link rel="stylesheet" href="header.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <nav>
+                    <div>
+                        <ul>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""><img src="" alt=""></a></li>
+                            <li><a href=""><img src="" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <div><a href=""><h1></h1></a></div>
+                    <div>
+                        <ul>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""><img src="" alt=""></a></li>
+                            <li><a href=""><img src="" alt=""></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <article>
+            <p>
+                Durante su evolución el lenguaje de marcas HTML ha ido permitiendo cierto grado de personalización. Desde poner en negrita un texto, cambiar su color o alinear una fotografía se iba haciendo casi de manera artesanal añadiendo línea a línea comentarios que ayudaban a su personalización.
+
+Esto hacía que con el tiempo cualquier proyecto web se hacía muy difícil de mantener. Entre otros motivos la principal razón es que cualquier cambio en el estilo de una web debía replicarse en todos los elementos relacionados casi línea a línea manualmente. Entran sudores solo de pensarlo, pero así era todo no hace muchos años atrás.
+
+La solución vino de la mano de CSS (siglas en inglés de Cascading Style Sheets), en español "Hojas de estilo en cascada", un lenguaje de marcas enfocado a definir, crear y mejorar la presentación de un documento basado en HTML. Para muchos diseñadores gráficos CSS significó la puerta de entrada al mundo de la web y junto con otras tecnologías como JavaScript, CSS se ha ido imponiendo como uno de los pilares imprescindibles de la web de hoy en día.
+
+Para qué sirve CSS
+El código CSS hace la vida más fácil al desarrollador front-end al separar las estructura de un documento HTML de su presentación. Dicho de otro modo el HTML actuaría como es esqueleto de la web, definiendo su estructura básica, y el CSS añadiría toda la capa de personalización sobre el que la web define su aspecto final.
+
+Siguiendo este fundamento resulta muy fácil para un diseñador web realizar cambios en la apariencia de una web sin afectar de manera dramática a su contenido. El contenido siempre será el mismo, solo cambia como aquello que podemos ver. CSS es fácil de entender y aprender, y nos da un potente control de cómo diseñar los documentos HTML.
+
+Por ejemplo, gracias al CSS podemos definir que todas las etiquetas <H1> de un texto cambie su apariencia por aquella que definamos, cambiando colores, fuentes y añadiendo efectos sin modificar nada del contenido que sirve de base. Imagina ahora si tuvieras que hacerlo revisando línea a línea.
+
+Por tanto la principal ventaja del CSS es que al poder ordenar nuestras preferencias de estilo en un único documento independiente ahorramos una considerable cantidad de tiempo al escribir nuestras órdenes CSS en forma de plantilla una única vez para ser aplicado luego a todos las páginas que componen nuestra página web.
+
+Pero no es la única ventaja. Gracias a esto también el rendimiento de nuestra web se ve incrementado cargando de una manera más rápida pues no es necesario escribir etiquetas HTML continuamente y al tener que insertar una menor cantidad de código también su mantenimiento es mucho menor. Un cambio en el CSS y nuestra página se actualizará al momento.
+
+Cómo funciona CSS
+Al contrario de lo que algunas personas piensan CSS no es un lenguaje de programación. En realidad interactúa con la Web pero lo hace en colaboración de otros lenguajes de programación.
+
+CSS funciona de una manera muy simple. Los navegadores Web al aplicar las reglas CSS a un documento modifican la manera en que este nos es presentado. Todo se produce de manera transparente al usuario. Estas reglas se componen de dos elementos clave. El primero es un conjunto de propiedades con valores establecidos para actualizar la presentación del contenido HTML. El segundo elemento son los selectores. Estos nos ayudan a seleccionar los elementos afectados por el nuevo valor de la propiedad. De esta manera evitamos que el CSS afecte a todos los elementos del HTML y solo aquellos que queramos. Por ejemplo a los elementos contenidos en primer parrafo de nuestro documento o seleccionar de manera alterna las filas de una tabla.
+
+Qué es el W3C: Historia de CSS
+En los años 70, mucho antes de que la web diera sus primeros inicios, se desarrolló un rudimentario sistema de etiquetas llamado SGML. Desde la creación de SGML, se observó la necesidad de definir un mecanismo que permitiera aplicar de forma consistente diferentes estilos a los documentos electrónicos.
+
+Con la llegada de Internet esta evidencia se hizo todavía más manifiesta y era necesario incorporar una tecnología que permitiera añadir una capa de personalización extra a los documentos HTML. La falta de un estándar hizo que compañías como Microsoft y Netscape, en ese momento en guerra por el navegador más popular, hizo la web un lugar en donde el mensaje “Este sitio web solo es compatible con Internet Explorer” fuera casi la norma. Prácticamente era imposible crear una web que se viera igual en los diferentes navegadores de la época.
+
+Para resolver esto la W3C (World Wide Web Consortium), encargado de crear todos los estándares relacionados con la web, propuso la creación de un lenguaje de hojas de estilos específico para el lenguaje HTML y se presentaron nueve propuestas. Las dos propuestas que se tuvieron en cuenta fueron la CHSS (Cascading HTML Style Sheets) y la SSP (Stream-based Style Sheet Proposal).
+
+Irónicamente para resolver la guerra entre los dos navegadores más populares de la época, internet explorer y netscape communicator, parecía inevitable tener que utilizar dos estándares diferentes hasta que en 1995 la W3C decidió apostar por la estandarización y confluencia de ambos con la primera versión de CSS.
+
+La aceptación fue casi inmediata en 1998 se publica la segunda revisión. CSS 2.1 dando un paso de gigante al mismo tiempo que se publican los primeros borradores de CSS 3.
+
+Si te lo estás preguntando, como curiosidad, el primer navegador en adoptar soporte parcial a CSS fue Internet Explorer 3.0 y finalmente, el primer navegador con soporte completo de CSS 1 fue la versión para Mac de Internet Explorer 5, que se publicó en el año 2000.
+
+Sintaxis y estructura de CSS: Reglas, selectores, declaraciones, atributos, valores, identificadores y clases.
+CSS se compone de dos partes. Una parte llamada "selector" y otra parte llamada "declaración". La declaración indica "qué hay que hacer" y el selector indica "a quién hay que hacérselo". Por lo tanto, los selectores son imprescindibles para aplicar de forma correcta los estilos CSS en una página.
+            </p>
+        </article>
+    </body>
+</html>

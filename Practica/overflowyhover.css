@@ -1,0 +1,32 @@
+div{
+    margin: auto;
+    margin: 50px;
+    width: 320px;
+    height: 350px;
+    border: 4px solid red;
+    background-color: gray;
+    overflow: auto;
+}
+.ejemplooverflowconimg{
+    margin-top: 15px;
+    width: 320;
+    height: 350;
+    border: 4px solid red;
+    overflow: auto;
+}
+
+img{
+    width: 1000px;
+    position: relative;
+    top: 160px;
+    left: 140px;
+    outline: solid blue;
+    transition: all 1.2s;
+}
+div:hover > img{
+    width: 1000px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    outline: 2px solid blue;
+}

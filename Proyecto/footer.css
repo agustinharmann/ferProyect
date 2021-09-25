@@ -1,0 +1,4 @@
+div ul li img{
+    width: 50%;
+    filter: grayscale(100%);
+}

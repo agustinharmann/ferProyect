@@ -1,0 +1,87 @@
+/* *{
+    margin:0;
+} */
+header{
+    background-color: white;
+    height: 65px;
+    width: 232vh;
+    margin-top: -16px;
+    margin-left: -8px;
+    text-transform: uppercase;
+    color: #212520;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+    position: fixed;
+}
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+}
+.elemntosdelnav{
+    margin-top: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+.thevault{
+    font-weight: bold;
+}
+.imgcuadrado{
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+}
+.imgrayo{
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+}
+.primersegmento{
+    display: inline-block;
+    float: left;
+    margin-left: -30px;
+}
+.segundosegmento{
+    display: inline-block;
+    margin-left: 165px;
+}
+.segundosegmento a h1{
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.tercersegmento{
+    display: inline-block;
+    float: right;
+    margin-right: 180px;
+}
+.prestigio{
+    font-weight: bold;
+}
+.imglupa{
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+}
+.imgcorazon{
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+}
+.imgbolsadecompra{
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+}
+body{
+    background-color: purple;
+}

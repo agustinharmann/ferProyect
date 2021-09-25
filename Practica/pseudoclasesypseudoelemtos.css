@@ -1,0 +1,114 @@
+.texto{
+    padding: 20px;
+}
+.texto::first-line{
+    color: green;
+}
+.texto::first-letter{
+    color: red;
+    font-size: 40px;
+}
+form{
+    margin: 100px auto;
+    display: block;
+    background-color: #555;
+    padding: 100px;
+    width: 50%;
+}
+input{
+    padding: 6px;
+    width: 100%;
+}
+input::placeholder{
+    color: green;
+    font-size: 25px;
+    background-color: yellow;
+}
+input::selection{
+    background-color: orange;
+    color: 
+    blue;
+}
+.contenedordelbefore{
+    background-color: chartreuse;
+    width: 50%;
+    height: 65px;
+    margin: 20px auto;
+}
+b{
+    margin-left: 50%;
+}
+b::before{
+    content: "me suscribí";
+    color: white;
+}
+b::after{
+    content: "soydalto";
+    color: violet;
+}
+.divdivisor{
+    text-align: center;
+    background-color: red;
+}
+ .caja1{
+    width: 200px;
+    height: 200px;
+    background-color: royalblue;
+    display: inline-block;
+}
+.caja1:hover{
+    background-color: red;
+}
+.caja2{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    display: inline-block;
+}
+.pruebalink:link{
+    color: lawngreen;
+}
+.pruebalink:visited{
+    color: purple;
+}
+.caja3{
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    display: inline-block;
+}
+.caja4{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    display: inline-block;
+}
+.caja4:active{
+    background-color: crimson;
+}
+.caja5{
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+    display: inline-block;
+    background-color: darkcyan;
+}
+.contenedordeinput{
+    width: 100px;
+}
+.contenedordeinput:focus{
+    width: 150px;
+    background-color: darkblue;
+    padding: 10px;
+    color: white;
+}
+.caja6{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: orange;
+}
+.caja6 strong:lang(en){
+    background-color: red;
+    padding: 20px;
+}
